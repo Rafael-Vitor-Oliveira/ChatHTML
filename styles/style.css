@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+}
+main{
+    width: 500px;
+    font-family: 'Roboto', sans-serif;
+    margin: 50px auto;
+}
+header{
+    background-color: #2F4F4F;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.logo{
+    padding-top: 10px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #778899;
+    text-shadow: #000 1px 1px 1px;
+}
+section{
+    display: flex;
+}
+.options{
+    height: 25px;
+}
+.converse, .status, .call{
+    width: 500px;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+    text-align: center;
+    height: 25px;
+    color: #778899;
+    text-shadow: #000 1px 1px 1px;
+}
+.converse{
+    border-bottom: 2px solid #3CB371;
+    color: #3CB371;
+}
+.status:hover{
+    border-bottom: 2px solid #3CB371;
+    color: #3CB371;
+    transition: 250ms;
+}
+.call:hover{
+    border-bottom: 2px solid #3CB371;
+    color: #3CB371;
+    transition: 250ms;
+}
+.chats{
+    background-color: #708090;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.amigo1, .amigo2, .amigo3, .amigo4, .amigo5 ,.amigo6 ,
+.amigo7{
+    margin-left: 5px;
+    gap: 10px;
+}
+img{
+    width: 80px;
+    border-radius: 50%;
+    margin: 10px 5px 10px 10px;
+    align-items: normal;
+}
+p{
+    font-weight: bold;
+}
+h3{
+    margin-top: 25px;
+    margin-left: 0;
+    color: #ffff;
+    text-shadow: #000 1px 1px 1px;
+}
+.amigoChat{
+    line-height: 5px;
+}
